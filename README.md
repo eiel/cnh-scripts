@@ -23,5 +23,5 @@ rake main
 # 属性集計
 
 ```
-rake questions
+rake sub
 ```
