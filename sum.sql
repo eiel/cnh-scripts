@@ -4,6 +4,8 @@ SELECT
     WHEN c5 = "【スーパー早割】一般" then "会場参加"
     WHEN c5 = "【早割】一般" then "会場参加"
     WHEN c5 = "【早割】学生" then "会場参加"
+    WHEN c5 = "一般" then "会場参加"
+    WHEN c5 = "学生" then "会場参加"
     WHEN c5 = "【スーパー早割】学生" then "会場参加"
     ELSE c5
  END as type
